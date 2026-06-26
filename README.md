@@ -8,6 +8,11 @@ O olist é a maior loja de departamentos dos marketplaces. Possui um catálogo c
 **Dataset:** <https://github.com/olist/work-at-olist-data><br>
 **Grupo:** 4 pessoas
 
+- Ilky André Ramos de Lima
+- Luiz Gabriel Correia Sandes
+- Helder Vinícius Soares Lira do Nascimento
+- Vitoria Regina dos Santos Melo
+
 ## Pré-requisitos e Infraestrutura Cloud
 
 Em vez de provisionar toda a infraestrutura localmente via contêineres, este projeto exige a orquestração de serviços em nuvem (utilizando os planos gratuitos - *Free Tiers* - de cada plataforma).
