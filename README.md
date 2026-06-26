@@ -83,7 +83,20 @@ Com o Supabase populado, a etapa final é plugar a ferramenta de BI e responder 
 ### 4.1 Organização do Repositório
 
 - **Etapa 1 - Modelagem:** Arquivo README.md (ou documento específico da etapa) dedicado à documentação arquitetural. Inclui os diagramas do Modelo Relacional e Dimensional (visões conceitual e física), além dos links diretos para o mapeamento das planilhas de Fatos e Dimensões.
+  - [Documento de Modelagem](docs/modeling.md)
 - **Etapa 2 - ETL (Apache Hop):** Pasta contendo os scripts de definição de dados (DDL) e os artefatos de integração do Apache Hop (arquivos .hpl e .hwf). Todos os artefatos desta etapa estão devidamente referenciados e linkados no documento .md principal.
+  - **Pipelines (.hpl)**
+    - [Fato Vendas](apache-hop/fato_vendas.hpl)
+    - [Dimensão Vendedor](apache-hop/dim_vendedor.hpl)
+    - [Dimensão Produto](apache-hop/dim_produto.hpl)
+    - [Dimensão Pagamento](apache-hop/dim_pagamento.hpl)
+    - [Dimensão Tempo](apache-hop/dim_tempo.hpl)
+    - [Stage Orders](apache-hop/stage_orders.hpl)
+  - **Workflows (.hwf)**
+    - [Workflow Fatos](apache-hop/workflow_fatos.hwf)
+    - [Workflow Dimensões](apache-hop/workflow_dimensoes.hwf)
+    - [Workflow Principal](apache-hop/workflow_principal.hwf)
 - **Etapa 3 - BI e Análise de Dados:** Acesso ao painel interativo desenvolvido no Preset.io (credenciais de *Viewer* disponibilizadas) e um relatório consolidado em PDF. O relatório inclui uma análise executiva destacando os principais gargalos logísticos e oportunidades de vendas identificadas na operação. Os links para o ambiente do Preset e para o PDF constam na documentação principal.
+  - [Relatório em PDF](docs/report.pdf)
 
 </div>
